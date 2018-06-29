@@ -27,12 +27,13 @@ anousonekaseumsouk@icloud.com
 * Ask user to input a word.
 * Ask user to enter a sentence.
 * Return how many times a word appears to the user.
+* Case sensitive and only separate by space, no special characters or numbers.
 
 | Input                               | Expected Output      |
 | ----------------------------------- |--------------------- |
 | Salmon: Salmon                      | 1                    |        
-| Pig: Bacon comes from Pig, pork belly comes from Pig.| 2   |
-| Fish: Fish in the sea, Fish is food, Fish is nature. | 3   |   
+| Pig: Two little Pig Pig in the barn | 2                    |
+| Fish: Fish Fish Fish in the sea Fishery | 3                |   
 
 
 ### Legal
