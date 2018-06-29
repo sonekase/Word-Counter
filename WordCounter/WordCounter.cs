@@ -41,6 +41,12 @@ namespace WordCounter
         string enterSentence = Console.ReadLine();
         int wordSum = wordCount.CountWord(enterSentence);
         Console.WriteLine("Your Word Appears " + wordSum);
+        Console.WriteLine("Would You Like To Restart: Y/N");
+        string restartGame = Console.ReadLine();
+        if(restartGame.Equals("Y"))
+        {
+          Main();
+        }
       }
     }
 
