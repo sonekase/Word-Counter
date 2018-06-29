@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace WordCounter
 {
-    public class WordTracker
+    public class RepeatCounter
     {
       private string inputWord;
 
-      public WordTrackerCounter(string enterWord)
+      public RepeatCounter(string enterWord)
       {
         inputWord = enterWord;
       }
@@ -22,14 +22,14 @@ namespace WordCounter
     //
     // }
 
-    public class Program
-    {
-      public static void Main()
-      {
-        Console.WriteLine("Enter Your Word.");
-        string firstWord = Console.ReadLine();
-        WordTrackerCounter wordCount = new WordTrackerCounter(firstWord);
-      }
-    }
+    // public class Program
+    // {
+    //   public static void Main()
+    //   {
+    //     Console.WriteLine("Enter Your Word.");
+    //     string firstWord = Console.ReadLine();
+    //     RepeatCounter wordCount = new RepeatCounter(firstWord);
+    //   }
+    // }
 
 }

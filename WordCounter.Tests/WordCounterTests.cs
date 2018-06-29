@@ -4,18 +4,18 @@ using WordCounter;
 namespace WordCounter.Tests
 {
   [TestClass]
-  public class WordTrackerTest
+  public class RepeatCounterTest
   {
     [TestMethod]
     public void GetWord_ReturnWord()
     {
       //Arrange
-      string word = "pig";
-      WordTrackerCounter wordCount = new WordTrackerCounter(firstWord);
+      string firstWord = "salmon";
+      RepeatCounter wordCount = new RepeatCounter(firstWord);
       //Act
       string expectedResult = wordCount.GetWord();
       //Assert
-      Assert.AreEqual(word, expectedResult);
+      Assert.AreEqual(firstWord, expectedResult);
     }
 
   }
