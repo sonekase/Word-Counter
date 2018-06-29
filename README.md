@@ -25,20 +25,14 @@ anousonekaseumsouk@icloud.com
 ## Spec
 
 * Ask user to input a word.
-* Store word to a list.
-* Ask user if they would like to add more words to a list.
-* Store added words to the list.
+* Ask user to enter a sentence.
 * Return how many times a word appears to the user.
 
-
-
-| Input                               | Expected Output      | Test Behavior |
-| ----------------------------------- |--------------------- | ------------- |
-| DOG                                 | 1                    | Test if input is accepted.
-| PIG, GINEAU PIG, POTBELLY PIG       | 3                    | Test if list of words is accepted.
-| FISH, CAT FISH, DOG FISH, GOLD FISH | 4                    | Test if list of words returns number of times contain in a string.
-
-
+| Input                               | Expected Output      |
+| ----------------------------------- |--------------------- |
+| Salmon: Salmon                      | 1                    |        
+| Pig: Bacon comes from Pig, pork belly comes from Pig.| 2   |
+| Fish: Fish in the sea, Fish is food, Fish is nature. | 3   |   
 
 
 ### Legal
